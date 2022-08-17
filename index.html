@@ -2,36 +2,22 @@
 <html>
 <head>
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li{
-  background-color: red;
-  /*padding: 25px 5px;*/
-}
-li:first-child{
-  background-color: green;
-}
-
-a{
-  text-decoration:none;
-  padding: 25px 8px;
+#div1 {
+  background-color: yellow;
+  height: 100px;
+  width: max(50%, 300px);
 }
 </style>
 </head>
 <body>
 
-<p>In this example, we remove the bullets from the list, and its default padding and margin.</p>
+<h1>The max() Function</h1>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+<p>Use max() to set the width of #div1 to whichever value is largest, 50% or 300px:</p>
+
+<div id="div1">Some text...</div>
+
+<p>Resize the browser window to see the effect.</p>
 
 </body>
 </html>
